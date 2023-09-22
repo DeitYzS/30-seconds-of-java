@@ -29,7 +29,7 @@ package algorithm;
  */
 
 public class BinarySearchSnippet {
-
+  
   /**
    * Search an item with binarySearch algorithm.
    *

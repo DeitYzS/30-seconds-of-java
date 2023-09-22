@@ -30,6 +30,8 @@ import java.util.Collections;
 /**
  * PerformLotterySnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class PerformLotterySnippet {
 
   /**

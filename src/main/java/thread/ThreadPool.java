@@ -30,7 +30,9 @@ import java.util.concurrent.Executors;
 /**
  * ThreadPool.
  */
-public class ThreadPool {
+import lombok.experimental.UtilityClass;
+@UtilityClass
+class ThreadPool {
 
   /**
    * <p>Creates pool of threads. Where the pool is the size of the number of processors

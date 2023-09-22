@@ -25,11 +25,15 @@
 package array;
 
 import java.util.Arrays;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 /**
  * ArrayMedianSnippet.
  */
-public class ArrayMedianSnippet {
+
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+class ArrayMedianSnippet {
 
   /**
    * Returns the median of the array.

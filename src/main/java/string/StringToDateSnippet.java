@@ -31,6 +31,8 @@ import java.util.Date;
 /**
  * StringToDateSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class StringToDateSnippet {
 
   /**

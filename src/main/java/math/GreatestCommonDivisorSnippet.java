@@ -24,9 +24,13 @@
 
 package math;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * GreatestCommonDivisorSnippet.
  */
+
+@UtilityClass
 public class GreatestCommonDivisorSnippet {
 
   /**

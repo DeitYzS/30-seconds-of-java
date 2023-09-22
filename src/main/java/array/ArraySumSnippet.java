@@ -25,11 +25,15 @@
 package array;
 
 import java.util.Arrays;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 /**
  * ArraySumSnippet.
  */
-public class ArraySumSnippet {
+
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+class ArraySumSnippet {
 
   /**
    * Returns sum of the integers in the array.

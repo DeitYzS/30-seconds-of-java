@@ -35,6 +35,8 @@ import javax.imageio.ImageIO;
 /**
  * CaptureScreenSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class CaptureScreenSnippet {
 
   /**

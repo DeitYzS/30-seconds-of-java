@@ -27,6 +27,8 @@ package math;
 /**
  * PrimeNumberSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class PrimeNumberSnippet {
 
   /**

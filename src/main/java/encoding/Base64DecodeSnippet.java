@@ -24,11 +24,16 @@
 
 package encoding;
 
+
+
 import java.util.Base64;
+import lombok.experimental.UtilityClass;
 
 /**
  * Base64DecodeSnippet.
  */
+
+@UtilityClass
 public class Base64DecodeSnippet {
 
   /**

@@ -24,9 +24,13 @@
 
 package math;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * LuhnSnippet.
  */
+
+@UtilityClass
 public class LuhnSnippet {
 
   /**

@@ -30,7 +30,8 @@ import java.util.Set;
 /**
  * DuplicateCharacterSnippet.
  */
-
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class DuplicateCharacterSnippet {
 
   /**

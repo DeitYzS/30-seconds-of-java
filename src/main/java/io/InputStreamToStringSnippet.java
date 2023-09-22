@@ -24,6 +24,7 @@
 
 package io;
 
+import lombok.experimental.UtilityClass;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -33,6 +34,8 @@ import java.util.stream.Collectors;
 /**
  * InputStreamToStringSnippet.
  */
+
+@UtilityClass
 public class InputStreamToStringSnippet {
 
   /**

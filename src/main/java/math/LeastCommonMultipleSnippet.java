@@ -24,9 +24,13 @@
 
 package math;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * LeastCommonMultipleSnippet.
  */
+
+@UtilityClass
 public class LeastCommonMultipleSnippet {
   /**
    * Least common multiple  calculation.

@@ -26,10 +26,13 @@ package math;
 
 import java.util.ArrayList;
 import java.util.List;
+import lombok.experimental.UtilityClass;
 
 /**
  * FibonacciSnippet.
  */
+
+@UtilityClass
 public class FibonacciSnippet {
 
   /**

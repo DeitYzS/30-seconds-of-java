@@ -27,6 +27,8 @@ package string;
 /**
  * ReversStringSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class ReversStringSnippet {
 
   /**

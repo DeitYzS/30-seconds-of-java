@@ -25,10 +25,13 @@
 package file;
 
 import java.io.File;
+import lombok.experimental.UtilityClass;
 
 /**
  * ListDirectoriesSnippet.
  */
+
+@UtilityClass
 public class ListDirectoriesSnippet {
 
   /**

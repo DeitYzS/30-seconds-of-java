@@ -24,10 +24,14 @@
 
 package algorithm;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * MergeSortSnippet.
  */
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class MergeSortSnippet {  
   /**
      * Sort an array with qmergesort algorithm.

@@ -24,9 +24,13 @@
 
 package math;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * HaversineFormulaSnippet.
  */
+
+@UtilityClass
 public class HaversineFormulaSnippet {
 
   // Radius of sphere on which the points are, in this case Earth.

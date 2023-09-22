@@ -24,9 +24,12 @@
 
 package math;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * FactorialSnippet.
  */
+@UtilityClass
 public class EloRatingSnippet {
 
   static final int BASE = 400; //Two types are popular - 400 and 480. We will choose 400 here

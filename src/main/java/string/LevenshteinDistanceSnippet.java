@@ -27,6 +27,8 @@ package string;
 /**
  * LevenshteinDistanceSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class LevenshteinDistanceSnippet {
 
   /**

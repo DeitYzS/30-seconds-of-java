@@ -24,9 +24,14 @@
 
 package algorithm;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * InsertionSortSnippet.
  */
+
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class InsertionSortSnippet {
 
   /**

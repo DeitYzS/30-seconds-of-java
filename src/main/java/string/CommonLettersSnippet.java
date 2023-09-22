@@ -30,6 +30,8 @@ import java.util.Set;
 /**
  * CommonLettersSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class CommonLettersSnippet {
 
   /**

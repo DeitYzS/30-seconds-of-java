@@ -24,9 +24,13 @@
 
 package math;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * FactorialSnippet.
  */
+
+@UtilityClass
 public class FactorialSnippet {
 
   /**

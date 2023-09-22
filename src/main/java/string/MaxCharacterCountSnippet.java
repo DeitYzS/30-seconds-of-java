@@ -27,6 +27,8 @@ package string;
 /**
  * MaxCharacterCountSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class MaxCharacterCountSnippet {
 
   /**

@@ -25,10 +25,13 @@
 package encoding;
 
 import java.util.Base64;
+import lombok.experimental.UtilityClass;
 
 /**
  * Base64EncodeSnippet.
  */
+
+@UtilityClass
 public class Base64EncodeSnippet {
   /**
    * Encodes the input string to a Base64 encoded string.

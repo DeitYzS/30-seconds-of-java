@@ -27,10 +27,13 @@ package file;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import lombok.experimental.UtilityClass;
 
 /**
  * ListAllFilesSnippet.
  */
+
+@UtilityClass
 public class ListAllFilesSnippet {
 
   /**

@@ -25,10 +25,13 @@
 package file;
 
 import java.io.File;
+import lombok.experimental.UtilityClass;
 
 /**
  * ListFilesInDirectorySnippet.
  */
+
+@UtilityClass
 public class ListFilesInDirectorySnippet {
 
   /**

@@ -32,6 +32,8 @@ import java.util.stream.Stream;
 /**
  * NaturalNumberBinaryConversionSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class NaturalNumberBinaryConversionSnippet {
 
   /**

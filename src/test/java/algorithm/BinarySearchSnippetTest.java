@@ -37,7 +37,7 @@ class BinarySearchSnippetTest {
 
   /**
    * Tests for {@link BinarySearchSnippet#binarySearch(int[], int, int, int)}.
-   */    
+   */
 
   @Test
   void testBinarySearch() {

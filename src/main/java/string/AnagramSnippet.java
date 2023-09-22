@@ -29,6 +29,8 @@ import java.util.Arrays;
 /**
  * AnagramSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class AnagramSnippet {
 
   /**

@@ -30,10 +30,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
+import lombok.experimental.UtilityClass;
 
 /**
  * ZipDirectorySnippet.
  */
+
+@UtilityClass
 public class ZipDirectorySnippet {
 
   /**
@@ -43,6 +46,7 @@ public class ZipDirectorySnippet {
    * @param zipFileName The location and name of the zipped file.
    * @throws IOException if an I/O error occurs
    * */
+
   public static void zipDirectory(String srcDirectoryName, String zipFileName) throws IOException {
     var srcDirectory = new File(srcDirectoryName);
     try (
@@ -66,7 +70,9 @@ public class ZipDirectorySnippet {
     if (fileToZip.isHidden()) { // Ignore hidden files as standard
       return;
     }
+
     if (fileToZip.isDirectory()) {
+
       if (fileName.endsWith("/")) {
         zipOut.putNextEntry(new ZipEntry(fileName)); // To be zipped next
         zipOut.closeEntry();
@@ -86,8 +92,11 @@ public class ZipDirectorySnippet {
     ) {
       var zipEntry = new ZipEntry(fileName);
       zipOut.putNextEntry(zipEntry);
+
       var bytes = new byte[1024];
+
       var length = 0;
+
       while ((length = fis.read(bytes)) >= 0) {
         zipOut.write(bytes, 0, length);
       }

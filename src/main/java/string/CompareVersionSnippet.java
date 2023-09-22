@@ -27,6 +27,8 @@ package string;
 /**
  * CompareVersionSnippet.
  */
+import lombok.experimental.UtilityClass;
+@UtilityClass
 public class CompareVersionSnippet {
 
   /**

@@ -26,12 +26,15 @@ package date;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 /**
  * DateDifferenceSnippet.
  */
 
-public class DateDifferenceSnippet {
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+class DateDifferenceSnippet {
 
   /**
   * This function calculates the number of years between two LocalDate objects.
